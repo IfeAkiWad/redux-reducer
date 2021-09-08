@@ -1,6 +1,6 @@
-export function managePresents(state, action){
-    state = {numberOfPresents: 0}
-    action = {type: "INCREASE"};
+export function managePresents(state = {numberOfPresents: 0}, action){
+    // state = {numberOfPresents: 0}
+    // action = {type: "INCREASE"};
 
     switch (action.type) {
         case "INCREASE":
